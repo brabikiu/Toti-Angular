@@ -1,0 +1,20 @@
+
+<h1>NOSSOS PROFESSORES DE YOGA</h1>
+<img src= "{{ img_1 }}">
+
+
+<div *ngFor="let usuario of usuarios">
+	<h3>Código professor: {{ usuario.id }} </h3>
+	<b>Nome: </b>{{ usuario.name }}<br>
+	<b>Email: </b>{{ usuario.email }}<br>
+	
+	<b>Endereço </b>
+	<br>
+	<b>Rua:</b>{{ usuario.address.street }}<br>
+	<b>Apartamento: </b>{{ usuario.address.suite }}<br>
+	<b>Cidade: </b>{{ usuario.address.city }}<br>
+
+	<hr>
+</div>
+
+
