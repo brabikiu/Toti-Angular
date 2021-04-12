@@ -1,0 +1,102 @@
+
+  .boxsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.boxsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.boxsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.boxsearch--input {
+  width: 90%;
+}
+
+
+.boxsearch--input {
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 60px;
+  padding: 0 46px 0 10px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 2px;
+  margin-top: 10px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.boxsearch--submit {
+    position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+      width: 60px;
+      height: 60px;
+    padding: 0;
+    border: none;
+      margin-top: 140px; /* margin-top + border-width */
+    margin-right: 40px; /* border-width */
+      background: transparent;
+    color: #888;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+  .boxsearch--input:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .boxsearch--input:focus.boxsearch--submit {
+       color: transparent; 
+  }
+  
+  .boxsearch--submit:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  ::-webkit-input-placeholder {
+      color: #888;  
+  }
+  
+  input:-moz-placeholder {
+    color: #888
+  }
+  
+
+  .h2 {
+    float: left;
+    margin: 25px;
+    margin-top:115px;
+    color: rgb(15, 15, 15);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 45px;
+  }
+  h1{
+      text-align: left;
+      font-size: 50px;
+      margin-bottom:40px;
+      padding-top: 30px;
+  
+  }

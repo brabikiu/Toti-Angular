@@ -1,1 +1,21 @@
-<p>search works!</p>
+
+  <div class="s01">
+    <form #nossoForm="ngForm" (ngSubmit)="search(nossoForm.form)">
+      
+      <h1 class="h2">Pesquisa</h1>
+      <h1 class="text-center">Encontra os melhores gifs do mundo!</h1>
+
+      <div class="boxsearch">
+        <div class="boxsearch--wrapper">
+          <input class="boxsearch--input" id="search" type="text" placeholder="O que está procurando?" name="nome" [(ngModel)]="nome" />
+        </div>
+        <div class="boxsearch">
+            <input class="boxsearch--submit" type="submit" value="&#10140;"/>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+  
